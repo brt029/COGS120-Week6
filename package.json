@@ -1,0 +1,11 @@
+{
+  "name": "Warmup",
+  "version": "1.0.0",
+  "description": "An exercise app on Heroku",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+} 
