@@ -1,11 +1,21 @@
 {
   "name": "Warmup",
-  "version": "1.0.0",
-  "description": "An exercise app on Heroku",
+  "version": "0.0.1",
+  "author": "HCI Students",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brt029/COGS120-Week6"
+  },
+  "license": "MIT",
+  "private": true,
   "scripts": {
-    "start": "harp server --port $PORT"
+    "start": "node server.js"
   },
   "dependencies": {
-    "harp": "*"
+    "express": "3.x",
+    "express3-handlebars": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
-} 
+}
