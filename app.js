@@ -11,6 +11,7 @@ var add = require('./routes/add');
 var index = require('./routes/index');
 var survey = require('./routes/survey');
 var profile = require('./routes/profile');
+//var edit = require('./routes/edit');
 
 var app = express();
 
@@ -75,6 +76,8 @@ app.get('/treadmill', function (req, res) {
 app.get('/weightlift', function (req, res) {
 	res.render('weightlift');
 });
+//app.get('/edit', edit.view);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
