@@ -11,24 +11,25 @@
 </head>
 
 <body> 
+  <div class="content">
 
 <div class="header">
   <center>
   <a href="profile" class="logo">User Profile</a></center>
 </div>
-<body>
-
 
 {{#each users}}
 <div class="data">
   <h3 class="friends">{{name}}</a></h3>
   <p><ul><li>Gender: {{gender}}</li>
   <li>Height: {{height}}</li>
-<li>Weight: {{weight}}</li>
-<li>Long-term goal: {{accomplish}}</ul>
+<li>Weight: {{weight}}</li></ul>
 </p>
 </div>
 {{/each}}
+
+<div class="push"></div>
+</div>
 
 <div class="navbar">
   <a href="home"><i class="fa fa-fw fa-home"></i></a>

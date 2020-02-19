@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  margin:0;
+}
+
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
@@ -90,7 +95,7 @@ img{
 }
 
 
-/* Style the navigation menu */
+/* Footer */
 .navbar {
   position: fixed;
   border-radius: 25px;
@@ -108,7 +113,7 @@ img{
   color: white;
   text-decoration: none;
   font-size: 36px;
-  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 25%; 
   text-align: center; /* If you want the text to be centered */
 }
 
@@ -140,3 +145,11 @@ iframe{
   position: absolute;
 }
 
+.content{
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+
+.push{
+  height: 100px;
+}

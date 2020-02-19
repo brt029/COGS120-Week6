@@ -49,17 +49,33 @@
 
   <div class="form-group">
 	      <label for="confident">How confident are you?</label>
-	      <input type="text" class="form-control" id="confident" placeholder="Not confident, Confident, Very confident..." name="confident">
+	      <select id="select1">
+	      	<option value="confident">Confident</option>
+	      	<option value="not">Not confident</option>
+	      	<option value="very">Very confident</option>
+	      </select>
 	    </div>
 
 	       <div class="form-group">
 	      <label for="days">How many days a week do you plan on exercising?</label>
-	      <input type="text" class="form-control" id="days" placeholder="1 to 7" name="days">
+	        <select id="select2">
+	      	<option value="one">1</option>
+	      	<option value="two">2</option>
+	      	<option value="three">3</option>
+	      		<option value="four">4</option>
+	      	<option value="five">5</option>
+	      	<option value="six">6</option>
+	      	<option value="seven">7</option>
+	      </select>
 	    </div>
 
 	       <div class="form-group">
 	      <label for="accomplish">What are you hoping to accomplish in the gym?</label>
-	      <input type="text" class="form-control" id="accomplish" placeholder="Goals" name="accomplish">
+	        <select id="select3">
+	      	<option value="fit">Become more fit</option>
+	      	<option value="strong">Get stronger</option>
+	      	<option value="endurance">Increase endurance</option>
+	      </select>
 	    </div>
 
 	    <input type="submit" id="submitBtn" class="btn btn-default" value="Create the profile"></input>
