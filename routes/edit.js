@@ -8,7 +8,7 @@ exports.editUser = function(request, response) {
 
 
     editDetails(data.users[findUser(name, data.users)]);
-    response.render('edit');
+    response.render('profile');
 
     function editDetails(array_index){
         data.users[array_index].name = name;
@@ -24,6 +24,5 @@ exports.editUser = function(request, response) {
             }
         }
     }
-    //response.render('profile', data);
 }
 

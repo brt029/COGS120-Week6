@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.css">
      <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+      {{> facebook}}
+  <script src="/js/facebook.js"></script>
 </head>
 
 <body> 
@@ -22,6 +24,7 @@
 <br>
 
 <div class="center">
+  <div id="facebookPhoto" class="profile"></div>
   <form method="get" action="/survey">
 
     <div class="container">
@@ -37,6 +40,7 @@
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
+      <fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
     </div>
     <!--
   <p class="facebookLogin">Please login through Facebook
