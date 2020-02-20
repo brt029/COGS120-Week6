@@ -1,20 +1,19 @@
 {
-  "name": "Warmup",
+  "name": "IntroHCI",
   "version": "0.0.1",
-  "author": "HCI Students",
+  "author": "Intro HCI Staff",
   "repository": {
     "type": "git",
-    "url": "https://github.com/brt029/COGS120-Week6"
+    "url": "https://github.com/IntroHCI/lab5"
   },
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "3.x",
-    "express3-handlebars": "*",
-    "jsonfile": "^5.0.0"
+    "express3-handlebars": "*"
   },
   "engines": {
     "node": "0.10.x"
